@@ -10,10 +10,10 @@ function landingPage() {
                         <div className='masker ' key={index}>
                             <div className='w-fit flex items-end '>
                                 {index === 1 && (
-                                    <div className=' mr-5 w-[8vw] rounded-md h-[6.7vw] relaive -top-[0.6vw] relative bg-green-500'></div>
+                                    <div className='mb-[0.5px] mr-3 w-[9vw] rounded-md h-[6.4vw] relaive -top-[0.3vw] relative bg-green-500'></div>
                                 )}
                                 <h1 className="flex scale-y-150 items-center uppercase text-[6vw] h-full leading-[7.9vw] font-['Founder Grotesk Condensed']  font-bold max-w-screen-sm"
-                >{item}</h1>
+                                >{item}</h1>
 
                             </div>
 
@@ -21,7 +21,7 @@ function landingPage() {
                     );
                 })}
             </div>
-            <div className='text-sm border-t-[1px] border-zinc-800 mt-20 flex justify-between items-center py-3 px-6'>
+            <div className='text-sm border-t-[1px] border-zinc-800 mt-10 flex justify-between items-center py-3 px-6'>
                 {["For public and private companies ", "From the first pitch to IPO"].map((item, index) => (
                     <p className="text-sm font-light tracking-tight leading-none" key={index}>{item}</p>
                 ))}

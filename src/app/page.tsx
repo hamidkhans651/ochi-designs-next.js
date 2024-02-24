@@ -2,25 +2,27 @@ import Image from "next/image";
 import NavBar from './components/NavBar'
 import LandingPage from './components/LandingPage'
 import Marquee from "./components/Marquee";
+import About from "./components/About"
 
 function App() {
-return (
+  return (
 
-<div className=" w-full h-screen text-white bg-zinc-900">
-  <NavBar/>
-  <LandingPage />
-  <Marquee/>
+    <div className=" w-full h-screen text-white bg-zinc-900">
+      <NavBar />
+      <LandingPage />
+      <Marquee />
+      <About />
 
-  </div>
-        
+    </div>
 
-);
+
+  );
 
 
 }
 
-        export default App;
+export default App;
 
- 
+
 
 
