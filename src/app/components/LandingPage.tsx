@@ -3,7 +3,7 @@ import { FaArrowUp } from "react-icons/fa6";
 
 function landingPage() {
     return (
-        <div className='w-full h-screen bg-black border-t-2' >
+        <div className='w-full h-screen bg-black-#212121 border-t-2' >
             <div className='textstructure text-xs px-7 pb-10 py-1 mt-40 uppercase tracking-wide '>
                 {["We create", "Eye-Opening", "Presentations"].map((item, index) => {
                     return (
