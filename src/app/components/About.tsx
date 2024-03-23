@@ -14,7 +14,7 @@ const underlineVariants = {
 
 const About: FC = () => {
     return (
-        <div className='w-full bg-[#CDEA68] rounded-tl-2xl rounded-tr-3xl text-gray-900 flex flex-col justify-between'>
+        <div className='w-full  bg-[#CDEA68] rounded-tl-2xl rounded-tr-3xl text-gray-900 flex flex-col justify-between'>
             <h1 className='mt-16 p-12 font-["Neue_Montreal"] text-[5vw] leading-[5vw] tracking-tight flex-col display: inline'>
                 Ochi is a strategic partner for fast-grow­ing tech businesses that need to,
                 <motion.span
@@ -74,15 +74,19 @@ const About: FC = () => {
             <div className="pl-4 w-full flex gap-40 border-t-[1px] pt-10  mt-20 border-[#afc26b] ">
                 <div className='w-1/1 '>
                     <h1 className='text-5xl gap-3'>Our Approach:</h1>
+                    
+                    {/* README MORE BUTTON  */}
                     <button className=' flex uppercase gap-4 items-center px-7 py-4 bg-gray-950 mt-3 rounded-full text-white '>Read More
                         <div className=' w-2 h-2 bg-zinc-100 rounded-full' ></div>
                     </button>
                 </div>
 
-                <div className=' mb-40 w-1/2 h-[55vh] rounded-lg bg-[#657036]'></div>
+                <div className=' mb-40 w-1/2 h-[55vh] rounded-lg overflow-hidden'>
+                    <img className='w-full h-full bg-cover' src="https://ochi.design/wp-content/uploads/2022/05/Homepage-Photo-663x469.jpg" alt="" />
+                </div>
             </div>
 
-         
+
 
         </div>
 

@@ -10,7 +10,9 @@ function landingPage() {
                         <div className='masker ' key={index}>
                             <div className='w-fit flex items-end '>
                                 {index === 1 && (
-                                    <div className='mb-[0.6vh] mr-3 w-[9vw] rounded-md h-[6.8vw] relaive -top-[0.3vw] relative bg-green-500'></div>
+                                    <div className='mb-[0.6vh] mr-4 w-[10vw] rounded-md h-[6.8vw] relaive -top-[0.3vw] relative overflow-hidden'>
+                                        <img className='w-full h-full bg-contain' src="https://ochi.design/wp-content/uploads/2022/04/content-image01.jpg" alt="" />
+                                    </div>
                                 )}
                                 <h1 className="flex scale-y-150 items-center uppercase text-[6vw] h-full leading-[7.9vw] font-['Founder Grotesk Condensed']  font-bold max-w-screen-sm"
                                 >{item}</h1>
